@@ -1,4 +1,6 @@
 class Solution {
+
+    /** leet code solution */
     public int[] sortArray(int[] nums) {
         int n = nums.length;
         nums = mergeSort(nums,0,n-1);
